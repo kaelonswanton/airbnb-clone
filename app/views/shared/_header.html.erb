@@ -1,0 +1,29 @@
+<div class="bg-blue-500 py-6 px-10 flex justify-center">
+  
+  <%# Image %>
+
+  <div class="">
+    <a href="http://localhost:3000/">
+      <img src="<%= asset_path('banner-logo.png')%>" alt="Airbnb's logo" class="w-8 h-8">
+    </a>
+  </div>
+
+  <%# Middle bars %>
+
+  <div class="border border-neutral-600 flex rounded-full p-2 text-xs">
+
+    <div class="mx-2">
+      <p>Anywhere</p>
+    </div>  
+
+    <div class="mx-2">
+      <p>Any week</p>
+    </div>
+
+    <div class="mx-2 flex">
+      <p class=" text-gray-400 opacity-50">Add guests</p>
+      <img src="<%= asset_path('banner-magnifying-glass.png')%>" class="h-5 w-5 ml-2 border-red-500 rounded-full">
+    </div>
+
+  </div>
+</div>
